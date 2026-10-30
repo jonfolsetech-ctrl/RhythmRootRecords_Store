@@ -1,6 +1,13 @@
-# RythmRootsRecords
+# RhythmRoots Records
 
-Complete frontend music storefront for Suburban-kid, using React, TypeScript strict, Vite, Tailwind CSS, React Router, Lucide, React Hook Form and Zod.
+## Live view
+
+[**Open the Store ↗**](https://jonfolsetech-ctrl.github.io/RhythmRootRecords_Store/) · [**Open the Label ↗**](https://jonfolsetech-ctrl.github.io/RythnmRootsRecords_Suburban-Kid/)
+
+Both sites are hosted on GitHub Pages and can be viewed on mobile or desktop.
+
+
+Complete frontend music storefront for Suburban Kid, using React, TypeScript strict, Vite, Tailwind CSS, React Router, Lucide, React Hook Form and Zod.
 
 ## Run
 
