@@ -1,8 +1,11 @@
 # RhythmRoots Records
 
+> The store is now part of the [combined RhythmRoots Records site](https://jonfolsetech-ctrl.github.io/RythnmRootsRecords_Suburban-Kid/). Active storefront development lives in the label repository’s `store/` directory. This repository keeps the old public address working through redirects.
+
+
 ## Live view
 
-[**Open the Store ↗**](https://jonfolsetech-ctrl.github.io/RhythmRootRecords_Store/) · [**Open the Label ↗**](https://jonfolsetech-ctrl.github.io/RythnmRootsRecords_Suburban-Kid/)
+[**Open the Store ↗**](https://jonfolsetech-ctrl.github.io/RythnmRootsRecords_Suburban-Kid/store/) · [**Open the Label ↗**](https://jonfolsetech-ctrl.github.io/RythnmRootsRecords_Suburban-Kid/)
 
 Both sites are hosted on GitHub Pages and can be viewed on mobile or desktop.
 

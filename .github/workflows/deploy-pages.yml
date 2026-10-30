@@ -1,4 +1,4 @@
-name: Deploy store to GitHub Pages
+name: Redirect to combined RhythmRoots Records site
 on:
   push:
     branches: [main]
@@ -18,15 +18,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
-      - name: Support direct route visits
-        run: cp dist/index.html dist/404.html
+      - name: Build redirects for existing store links
+        run: node scripts/redirect.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: redirect-site
   deploy:
     environment:
       name: github-pages
