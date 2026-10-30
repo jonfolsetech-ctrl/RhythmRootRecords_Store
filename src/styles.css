@@ -45,3 +45,26 @@ footer{background:#d8c5a0;border-top:5px double #8e7e5c}footer .brand{color:var(
 .culture-record{width:39%;bottom:8%}
 @media(max-width:760px){.culture-poster>strong{font-size:clamp(33px,7vw,48px)}}
 @media(max-width:420px){.culture-poster{top:37%;padding:11px 10px;width:61%}.culture-poster>strong{font-size:33px;margin:10px 0}.culture-poster:before,.culture-poster:after{height:5px}.culture-poster small{margin-top:6px}}
+/* A restrained Mardi Gras accent: amethyst, leafy green and antique gold. */
+:root{--carnival-purple:#65416d;--carnival-green:#42664b;--carnival-gold:#c09a4e}
+.announcement{border-bottom:3px solid transparent;border-image:linear-gradient(90deg,var(--carnival-purple) 0 33.33%,var(--carnival-green) 33.33% 66.66%,var(--carnival-gold) 66.66%) 1}
+.tiny-star{color:var(--carnival-purple)}
+.hero h1 em{color:var(--carnival-purple)}
+.cultural-art:after{content:'';position:absolute;left:3%;right:3%;top:12%;height:47px;border-bottom:3px dotted #d6b361;border-radius:0 0 50% 50%;pointer-events:none;opacity:.85}
+.culture-poster{border-color:#826180}
+.culture-poster:before,.culture-poster:after{border-color:var(--carnival-purple)}
+.culture-poster>strong em{color:var(--carnival-purple)}
+.culture-record>div{background:var(--carnival-purple);border-color:var(--carnival-gold)}
+.tile-sign b:nth-child(1),.tile-sign b:nth-child(4){color:var(--carnival-purple)}
+.tile-sign b:nth-child(2){color:var(--carnival-green)}
+.tile-sign b:nth-child(3){color:#876520}
+.genre-strip{border-image:linear-gradient(90deg,var(--carnival-purple),var(--carnival-green),var(--carnival-gold)) 1}
+.genre-strip i{font-size:0;display:inline-block;width:9px;height:9px;background:var(--carnival-gold);transform:rotate(45deg)}
+.genre-strip i:nth-of-type(2n){background:#b997bf}
+.genre-grid>a:nth-child(1),.genre-grid>a:nth-child(4){border-top-color:var(--carnival-purple)}
+.genre-grid>a:nth-child(2){border-top-color:var(--carnival-green)}
+.genre-grid>a:nth-child(3){border-top-color:var(--carnival-gold)}
+.license-banner{background:#56375e}
+.button:hover{background:#56375e;border-color:#56375e}
+.player{box-shadow:0 -3px 0 var(--carnival-gold),0 -5px 0 #65416d}
+@media(max-width:760px){.genre-strip i:last-of-type{display:none}}
